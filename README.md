@@ -11,7 +11,7 @@
 |----------|----------------------------|--------|----------------|
 | Kartik   | Data & Utilities           | ~43%   | 🟡 Partial     |
 | Gursidak | EDA                        | ~75%   | 🟡 Partial     |
-| Tushya   | Linear Models              | ~30%   | 🔵 In Progress |
+| Tushya   | Linear Models              | 100%   | ✅ Complete    |
 | Jayesh   | Advanced Models            | 0%     | 🔴 Not Started |
 
 ---
@@ -48,7 +48,7 @@
 
 ---
 
-## Task 3 — Linear Regression *(Tushya)*
+## Task 3 — Linear Regression *(Tushya)* ✅
 
 | Sub-task | Status |
 |---|---|
@@ -56,13 +56,13 @@
 | Z-score normalisation (from scratch) | ✅ Done |
 | 80/20 train-test split (from scratch) | ✅ Done |
 | Metric helpers: `mae()`, `mse()`, `r2_score()`, `denorm_y()` | ✅ Done |
-| Batch Gradient Descent (BGD) — from scratch | ❌ Pending |
-| SGD loss tracking per epoch | ❌ Pending |
-| Stochastic Gradient Descent (SGD) — from scratch | ❌ Pending |
-| BGD loss tracking per epoch | ❌ Pending |
-| MAE / MSE / R² evaluation on test set (original scale) | ❌ Pending |
-| BGD vs SGD — loss curve comparison plot | ❌ Pending |
-| BGD vs SGD — metrics comparison table + discussion | ❌ Pending |
+| Batch Gradient Descent (BGD) — from scratch | ✅ Done |
+| BGD loss tracking per epoch | ✅ Done |
+| Stochastic Gradient Descent (SGD) — from scratch | ✅ Done |
+| SGD loss tracking per epoch | ✅ Done |
+| MAE / MSE / R² evaluation on test set (original scale) | ✅ Done |
+| BGD vs SGD — loss curve comparison plot | ✅ Done |
+| BGD vs SGD — metrics comparison table + discussion | ✅ Done |
 
 ---
 
@@ -76,7 +76,7 @@
 | Evaluation & comparison with linear regression | ❌ Pending |
 | Visualisations | ❌ Pending |
 
-> **Dependency for Jayesh:** You can directly reuse the normalisation, split, and metric helper cells Tushya added (cells 15–18 in the notebook). No need to wait for Kartik's `get_data()` refactor to start.
+> **Dependency for Jayesh:** You can directly reuse the normalisation, split, and metric helper cells Tushya added (cells 16–19 in the notebook). No need to wait for Kartik's `get_data()` refactor to start. The variables `X_train`, `X_test`, `y_train`, `y_test`, `y_mean`, `y_std`, `denorm_y()`, `mae()`, `mse()`, `r2_score()` are all available once those cells are run.
 
 ---
 
