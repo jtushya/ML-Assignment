@@ -10,7 +10,7 @@
 | Person   | Module                     | % Done | Status         |
 |----------|----------------------------|--------|----------------|
 | Kartik   | Data & Utilities           | ~43%   | 🟡 Partial     |
-| Gursidak | EDA                        | ~75%   | ✅ Complete     |
+| Gursidak | EDA                        | 100%   | ✅ Complete     |
 | Tushya   | Linear Models              | 100%   | ✅ Complete    |
 | Jayesh   | Advanced Models            | 0%     | 🔴 Not Started |
 
