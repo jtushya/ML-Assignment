@@ -10,7 +10,7 @@
 | Person   | Module                     | % Done | Status         |
 |----------|----------------------------|--------|----------------|
 | Kartik   | Data & Utilities           | ~43%   | 🟡 Partial     |
-| Gursidak | EDA                        | ~75%   | 🟡 Partial     |
+| Gursidak | EDA                        | 100%   | ✅ Complete     |
 | Tushya   | Linear Models              | 100%   | ✅ Complete    |
 | Jayesh   | Advanced Models            | 0%     | 🔴 Not Started |
 
@@ -42,11 +42,11 @@
 | Boxplots + outlier analysis | ✅ Done |
 | Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ❌ Pending |
 | Correlation heatmap | ✅ Done |
-| Additional plots wherever useful (Task 2e) | ❌ Pending |
-| Bar chart of descriptive stats (min/max/mean/median/std) | ❌ Pending |
-| ≥3 insights in markdown (Task 2f) | ✅ Done |
+| ≥3 insights in markdown | ✅ Done |
+| Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ✅ Done |
+| Bar chart of descriptive stats (min/max/mean/median/std) | ✅ Done |
 
-> **Note for Gursidak:** Two items are missing that the assignment explicitly requires. Add scatter plots (Task 2c) and the descriptive stats bar chart before final submission.
+
 
 ---
 
