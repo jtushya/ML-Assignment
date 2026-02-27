@@ -44,7 +44,7 @@
 | Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ✅ Done |
 | Bar chart of descriptive stats (min/max/mean/median/std) | ✅ Done |
 
-> **Note for Gursidak:** Two items are missing that the assignment explicitly requires. Add scatter plots (Task 2c) and the descriptive stats bar chart before final submission.
+
 
 ---
 
