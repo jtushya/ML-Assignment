@@ -9,7 +9,7 @@
 
 | Person   | Module                     | % Done | Status         |
 |----------|----------------------------|--------|----------------|
-| Kartik   | Data & Utilities           | ~43%   | 🟡 Partial     |
+| Kartik   | Data & Utilities           | 100%   | ✅ Complete     |
 | Gursidak | EDA                        | 100%   | ✅ Complete     |
 | Tushya   | Linear Models              | 100%   | ✅ Complete    |
 | Jayesh   | Advanced Models            | 0%     | 🔴 Not Started |
@@ -23,13 +23,12 @@
 | Load dataset; inspect shape & dtypes | ✅ Done |
 | Identify missing values | ✅ Done |
 | Define target variable (`Total_GHG_kgCO2e`) | ✅ Done |
-| Identify numerical and categorical features | ❌ Pending |
-| Justify selection of numerical input features | ⚠️ Done by Tushya in Task 3 section 3.0 markdown |
-| Z-score normalisation (from scratch) | ⚠️ Done by Tushya — see note below |
-| 80/20 train-test split (from scratch) | ⚠️ Done by Tushya — see note below |
-| Shared metric helpers (`mae`, `mse`, `r2_score`) | ⚠️ Done by Tushya — see note below |
+| Identify numerical and categorical features | ✅ Done |
+| Justify selection of numerical input features | ✅ Done |
+| Z-score normalisation (from scratch) | ✅ Done |
+| 80/20 train-test split (from scratch) | ✅ Done |
+| Shared metric helpers (`mae`, `mse`, `r2_score`) | ✅ Done |
 
-> **Note for Kartik:** The three items marked ⚠️ were implemented early by Tushya to unblock the linear models module (no sklearn — pure NumPy). Please wrap these into a reusable `get_data()` function so Jayesh's module can call it cleanly without copy-pasting.
 
 ---
 
