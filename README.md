@@ -12,7 +12,7 @@
 | Kartik   | Data & Utilities           | 100%   | ✅ Complete     |
 | Gursidak | EDA                        | 100%   | ✅ Complete     |
 | Tushya   | Linear Models              | 100%   | ✅ Complete    |
-| Jayesh   | Advanced Models            | 0%     | 🔴 Not Started |
+| Jayesh   | Advanced Models            | 100%   | ✅ Complete     |
 
 ---
 
@@ -39,11 +39,11 @@
 | Descriptive statistics (`df.describe()`) | ✅ Done |
 | Histograms for all numerical features | ✅ Done |
 | Boxplots + outlier analysis | ✅ Done |
-| Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ❌ Pending |
+| Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ✅ Done |
 | Correlation heatmap | ✅ Done |
 | ≥3 insights in markdown | ✅ Done |
-| Scatter plots — each feature vs `Total_GHG_kgCO2e` (Task 2c) | ✅ Done |
 | Bar chart of descriptive stats (min/max/mean/median/std) | ✅ Done |
+| Additional plots wherever useful (Task 2e) | ✅ Done |
 
 
 
@@ -71,14 +71,14 @@
 
 | Sub-task | Status |
 |---|---|
-| Polynomial features degree 2 (from scratch) | ❌ Pending |
-| L1 Lasso regularisation | ❌ Pending |
-| L2 Ridge regularisation | ❌ Pending |
-| Evaluation & comparison with linear regression | ❌ Pending |
-| Summary of performance differences and model complexity effects (Task 4d) | ❌ Pending |
-| Visualisations | ❌ Pending |
+| Polynomial features degree 2 (from scratch) | ✅ Done |
+| L1 Lasso regularisation | ✅ Done |
+| L2 Ridge regularisation | ✅ Done |
+| Evaluation & comparison with linear regression | ✅ Done |
+| Summary of performance differences and model complexity effects (Task 4d) | ✅ Done |
+| Visualisations | ✅ Done |
 
-> **Dependency for Jayesh:** You can directly reuse the normalisation, split, and metric helper cells Tushya added (cells 16–19 in the notebook). No need to wait for Kartik's `get_data()` refactor to start. The variables `X_train`, `X_test`, `y_train`, `y_test`, `y_mean`, `y_std`, `denorm_y()`, `mae()`, `mse()`, `r2_score()` are all available once those cells are run.
+> **Note:** Jayesh's tasks build on the preprocessing and metric helpers from Tushya's Task 3 cells (`X_train`, `X_test`, `y_train`, `y_test`, `denorm_y()`, `mae()`, `mse()`, `r2_score()`).
 
 ---
 
@@ -86,13 +86,13 @@
 
 | Sub-task | Status |
 |---|---|
-| Labelling strategy (low / medium / high emissions) — justified | ❌ Pending |
-| Logistic Regression (from scratch) | ❌ Pending |
-| Naive Bayes (from scratch) | ❌ Pending |
-| Perceptron (from scratch) | ❌ Pending |
-| Accuracy, Precision, Recall, F1, Confusion Matrix | ❌ Pending |
-| Visualisations | ❌ Pending |
-| Discussion: suitability, limitations, information loss from discretisation | ❌ Pending |
+| Labelling strategy (low / medium / high emissions) — justified | ✅ Done |
+| Logistic Regression (from scratch) | ✅ Done |
+| Naive Bayes (from scratch) | ✅ Done |
+| Perceptron (from scratch) | ✅ Done |
+| Accuracy, Precision, Recall, F1, Confusion Matrix | ✅ Done |
+| Visualisations | ✅ Done |
+| Discussion: suitability, limitations, information loss from discretisation | ✅ Done |
 
 ---
 
