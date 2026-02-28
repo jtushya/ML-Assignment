@@ -96,6 +96,29 @@
 
 ---
 
+## Recent Fixes & Attributions by Tushya
+
+The following fixes and additions were made by Tushya during the final audit and implementation pass to ensure the notebook runs end-to-end and aligns with the assignment requirements:
+
+- **Data & Utilities (Kartik)**
+  - I made data loading environment-agnostic so the notebook works on both Colab and local VS Code.
+  - I renamed `get_data()` outputs to `*_full` to avoid variable name clashes with Task 3 preprocessing.
+
+- **EDA (Gursidak)**
+  - I removed a duplicate scatter-plot entry in the README.
+  - I deleted an empty stray code cell between EDA and Task 3 that caused a visual gap.
+
+- **Linear Models / Audit work (Tushya)**
+  - I ensured metric helpers and normalization utilities are consistently defined and used across tasks.
+  - I re-ran and validated Task 1–3 cells after installing missing packages (e.g., seaborn).
+
+- **Advanced Models (Jayesh)**
+  - I implemented Task 4 (Polynomial regression, L1/L2 regularisation) and Task 5 (classification reformulation) from scratch, and added evaluation, visualisations, and discussion.
+
+All changes were committed to the repository after I verified that the notebook executes end-to-end and that outputs are visible.
+
+---
+
 ## Notes
 
 - **No external ML libraries.** All algorithms must be implemented from scratch. Only NumPy, Pandas, Matplotlib, and Seaborn are permitted.
